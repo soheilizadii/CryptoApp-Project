@@ -1,0 +1,36 @@
+.table{
+    width:100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+.table thead{
+    border-bottom: solid white 1px;
+}
+.table tr th{
+    padding-bottom:10px ;
+    padding-left:10px; 
+}
+.table tbody tr{
+    border-bottom: solid #313131 1px;
+    cursor: pointer;
+}
+.coinImage{
+    width:25px;
+    vertical-align: middle;
+  margin-right: 8px;
+}
+.table tr td{
+    padding: 20px 0;
+    padding-left:10px; 
+    font-size:0.9rem;
+}
+.symbol{
+    font-size: 1rem;
+    color:#9b9b9b;
+}
+.green{
+  color:#259725;
+}
+.red{
+    color:#c43131;
+}

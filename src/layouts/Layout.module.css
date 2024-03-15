@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    background-color: #303030;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+  }
+  .header a{
+      color:#6552f4;
+      font-weight: 600;
+      font-size: 1.1rem;
+      text-decoration: none;
+  }
+  .footer{
+      background-color: #303030;
+      padding: 15px;
+      text-align: center;
+      margin-top:80px;
+  }
+  .loveIcon{
+      color: red;
+  }

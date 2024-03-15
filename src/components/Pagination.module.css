@@ -1,0 +1,29 @@
+.container{
+    margin: 55px auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container button{
+    background: #3232ad;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.container p{
+    border: solid #3874ff 1px;
+  padding: 4px 8px;
+  height: fit-content;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.selected{
+    background-color: #3874ff;
+    color: white;
+}
+.disabled{
+    opacity: 0.3;
+}

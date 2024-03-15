@@ -1,0 +1,5 @@
+.loading{
+    position: fixed; /* or 'absolute' if you want it relative to a positioned parent */
+    top: 25%;
+    left: 50%;
+}

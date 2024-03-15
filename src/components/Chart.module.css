@@ -1,0 +1,73 @@
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    backdrop-filter: blur(3px);
+    padding: 30px;
+}
+.delete{
+    background: #d33636;
+  width: fit-content;
+  padding: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.chart{
+    width:800px;
+    margin:auto;
+    padding: 20px;
+    margin-top: 50px;
+    background: #18181ce6;
+    border:solid 2px #404042;
+    border-radius: 20px;
+}
+.graph{
+    width:760px;
+    height:300px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.name img{
+    width:40px;
+    margin-right:5px;
+}
+.name p {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.types{
+  margin-top:30px
+}
+.types button{
+    margin:10px 20px;
+    background-color: #18181cdb;
+    border: solid 1px #3874ff;
+    color:#3874ff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.detail div{
+    display: flex;
+    font-size: 0.9rem;
+}
+.detail p{
+    margin-left: 17px;
+    color:#3874ff;
+    font-weight: 700;
+}
+.selected{
+    background-color: #3874ff !important;
+    color:white !important;
+}
