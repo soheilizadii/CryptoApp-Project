@@ -6,12 +6,12 @@ const Layout = ({children}) => {
           <header className={styles.header}>
             <h1>Crypto App </h1>
             <p>
-                <a href='#'>SoheilReact.js</a> | React.js Full Course
+                <a href='#'>  React.js Full Course  </a>
             </p>
           </header>
           {children}
           <footer className={styles.footer}>
-            <p>Developed by Soheil <span className={styles.loveIcon}><FaHeart/></span></p>
+            <p>Developed by Soheil and Sajede <span className={styles.loveIcon}><FaHeart/></span></p>
           </footer>
         </>
      );
